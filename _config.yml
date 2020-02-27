@@ -23,8 +23,8 @@ email: mcgann.d@husky.neu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Hello! My name is Dan. I'm a student and aspiring roboticist.
 baseurl: "/home" # the subpath of your site, e.g. /blog
-url: "https://danmcgann.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: danielmcgann3
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: danielfmcgann
 github_username:  DanMcGann
 
 # Build settings
