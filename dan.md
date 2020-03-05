@@ -10,10 +10,10 @@ Welcome to Dan's corner. A part of my site dedicated to the stuff that I like.
 
 ## Music Rec's
 Some recent finds that I cannot get enough of...
-* [San Fermin](sanferminband.com)
-* [Miki Fiki](realmikifiki.com)
-* [Mother Falcon](motherfalcon.com)
-* [Forth Wanderers](forthwanderers.bandcamp.com)
+* [San Fermin](http://www.sanferminband.com)
+* [Miki Fiki](http://www.realmikifiki.com)
+* [Mother Falcon](http://www.motherfalcon.com)
+* [Forth Wanderers](http://www.forthwanderers.bandcamp.com)
 
 ---
 
