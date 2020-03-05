@@ -2,6 +2,7 @@
 layout: home
 title: Home
 ---
+
 ![headshot](/images/index/headshot.jpg)
 
 My name is [Dan](/dan). I am a 4th year senior at Northeastern University studying Computer Science.
