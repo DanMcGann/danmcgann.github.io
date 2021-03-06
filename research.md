@@ -4,12 +4,8 @@ title: Research
 ---
 
 ---
-# NU Horizon
-![src](images/research/src.png)
-
-Research Goal: Develop novel techniques and algorithms for multi-agent robotic collection of resources in permanently shadowed regions of the Moon.
-
-Program Website: [Space Robotics Challenge](https://ninesights.ninesigma.com/servlet/hype/IMT?userAction=Browse&documentId=d4414ecdb345e2190f661e20df641dee&templateName=)
+# More Coming Soon...
+As my graduate career starts I am getting involved in a lot of interesting work and look forward to sharing soon!
 
 ---
 

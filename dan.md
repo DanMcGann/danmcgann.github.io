@@ -10,6 +10,7 @@ Welcome to Dan's corner. A part of my site dedicated to the stuff that I like.
 
 ## Music Rec's
 Some recent finds that I cannot get enough of...
+* [Reliably Bad](https://www.reliablybad.com/)
 * [San Fermin](http://www.sanferminband.com)
 * [Miki Fiki](http://www.realmikifiki.com)
 * [Mother Falcon](http://www.motherfalcon.com)
@@ -31,4 +32,4 @@ unfortunately all the signs were buried in the snow, so I'm not actually sure wh
 
 ### Mt. Marcy
 A classic of the Adirondacks!
-![iceland](images/dan/marcy.jpg)
+![marcy](images/dan/marcy.jpg)
