@@ -22,8 +22,8 @@ title: Dan McGann
 email: dmcgann at ri dot cmu dot edu
 description: >- # this means to ignore newlines until "baseurl:"
   My name is Dan. I'm a student and aspiring roboticist.
-  I love robots of all kind, but my passion our robotic astronauts exploring our solar system.
-  This website serves to outline my research and robot projects.
+  I love robots of all kind, but my passion is robotics for space exploration.
+  This website serves to outline my research and projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: danielfmcgann
