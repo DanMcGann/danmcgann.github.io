@@ -5,14 +5,31 @@ title: Research
 
 ---
 
+# Robust Incremental Smoothing and Mapping (riSAM)
+
+<p align="center">
+<img src="images/research/risam_outlier_threshold_gif.gif" alt="" width="100%"/>
+riSAM solving the CSAIL benchmark dataset for increasing quantities of outliers
+</p>
+
+Abstract: This paper presents a method for robust optimization for online incremental Simultaneous Localization and Mapping (SLAM). Due to the NP-Hardness of data association in the presence of perceptual aliasing, tractable (approximate) approaches to data association will produce erroneous measurements. We require SLAM back-ends that can converge to accurate solutions in the presence of outlier measurements while meeting online efficiency constraints. Existing robust SLAM methods either remain sensitive to outliers, become increasingly sensitive to initialization, or fail to provide online efficiency. We present the robust incremental Smoothing and Mapping (riSAM) algorithm, a robust back-end optimizer for incremental SLAM based on Graduated Non-Convexity. We demonstrate on benchmarking datasets that our algorithm achieves online efficiency, outperforms existing online approaches, and matches or improves the performance of existing offline methods. 
+
+Submitted to ICRA 2023
+
+Pre-Print: [arXiv](https://arxiv.org/abs/2209.14359)
+
+---
+
 # GPS-Denied Global Visual-Inertial Ground Vehicle State Estimation via Image Registration
-![path](images/research/gps_denied_path.jpg)
+<p align="center">
+<img src="images/research/gps_denied_path.jpg" alt="" width="75%"/>
+</p>
 
 Abstract: Robotic systems such as unmanned ground vehicles (UGVs) often depend on GPS for navigation in outdoor environments. In GPS-denied environments, one approach to maintain a global state estimate is localizing based on preexisting georeferenced aerial or satellite imagery. However, this is inherently challenged by the significantly differing perspectives between the UGV and reference images. In this paper, we introduce a system for global localization of UGVs in remote, natural environments. We use multi-stereo visual inertial odometry (MSVIO) to provide local tracking. To overcome the challenge of differing viewpoints we use a probabilistic occupancy model to generate synthetic orthographic images from color images taken by the UGV. We then derive global information by scan matching local images to existing reference imagery and then use a pose graph to fuse the measurements to provide uninterrupted global positioning after loss of GPS signal. We show that our system generates visually accurate orthographic images of the environment, provides reliable global measurements, and maintains an accurate global state estimate in GPS-denied conditions.
 
 Accepted to ICRA 2022
 
-Conference Paper: Coming soon!
+Conference Paper: [IEEE Xplore Link](https://ieeexplore.ieee.org/document/9812364)
 
 ---
 

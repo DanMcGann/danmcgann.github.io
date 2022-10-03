@@ -10,6 +10,10 @@ Welcome to Dan's corner. A part of my site dedicated to the stuff that I like.
 
 ## Music Rec's
 Some recent finds that I cannot get enough of...
+* October 2022
+    * [And the Kids](https://andthekidsmusic.bandcamp.com/)
+    * [Remember Sports](https://www.remembersports.com/)
+    * [Pinkshift](https://www.pinkshiftmd.com/)
 * May 2022
     * [Peter Broderick](https://www.peterbroderick.net)
     * [The Royal They](https://theroyalthey.bandcamp.com)
@@ -25,10 +29,13 @@ Some recent finds that I cannot get enough of...
 
 ## Recent Trips
 
+### The Enchantments
+Mount Stewart was truly a test of resolve.
+![enchantments_2022](images/dan/enchantments_2022.jpg)
+
 ### Vail (March 2022)
 Great skiing, great friends, and maybe a couple of cliffs.  
 ![vail_2022](images/dan/vail_2022.jpg)
-
 
 ### Park City (January 2022)
 I may have injured my ankle but the skiing was still great! 
