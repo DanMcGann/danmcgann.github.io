@@ -10,7 +10,7 @@ order: 2
 
 <p align="center">
 <video src="/home/daniel/Development/danmcgann.github.io/images/research/risam_correct_mistake.mp4" alt="" width="50%"/>
-riSAM solving the CSAIL benchmark dataset for increasing quantities of outliers
+riSAM solving an example dataset
 </p>
 
 Abstract: This paper presents a method for robust optimization for online incremental Simultaneous Localization and Mapping (SLAM). Due to the NP-Hardness of data association in the presence of perceptual aliasing, tractable (approximate) approaches to data association will produce erroneous measurements. We require SLAM back-ends that can converge to accurate solutions in the presence of outlier measurements while meeting online efficiency constraints. Existing robust SLAM methods either remain sensitive to outliers, become increasingly sensitive to initialization, or fail to provide online efficiency. We present the robust incremental Smoothing and Mapping (riSAM) algorithm, a robust back-end optimizer for incremental SLAM based on Graduated Non-Convexity. We demonstrate on benchmarking datasets that our algorithm achieves online efficiency, outperforms existing online approaches, and matches or improves the performance of existing offline methods. 
