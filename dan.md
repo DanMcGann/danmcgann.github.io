@@ -29,6 +29,10 @@ Some recent finds that I cannot get enough of...
 
 ## Recent Trips
 
+### Cozumel
+My first time diving in the tropics. Not sure if I can go back to the quarries of PA.
+![cozumel_2023](images/dan/cozumel_2023.jpg)
+
 ### The Enchantments
 Mount Stewart was truly a test of resolve.
 ![enchantments_2022](images/dan/enchantments_2022.jpg)
