@@ -9,7 +9,7 @@ order: 2
 # Robust Incremental Smoothing and Mapping (riSAM)
 
 <p align="center">
-<video src="/home/daniel/Development/danmcgann.github.io/images/research/risam_correct_mistake.mp4" alt="" width="50%"/>
+<video src="/home/daniel/Development/danmcgann.github.io/images/research/risam_correct_mistake.gif" alt="" width="50%"/>
 riSAM solving an example dataset
 </p>
 
