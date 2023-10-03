@@ -6,6 +6,18 @@ order: 2
 
 ---
 
+# Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM
+
+<p align="center">
+<img src="images/research/mesa_high_level.png" alt="" width="60%"/>
+</p>
+
+Abstract: In this paper we present a fully distributed, asynchronous, and general purpose optimization algorithm for Consensus Simultaneous Localization and Mapping (CSLAM). Multi-robot teams require that agents have timely and accurate solutions to their state as well as the states of the other robots in the team. To optimize this solution we develop a CSLAM back-end based on Consensus ADMM called MESA (Manifold, Edge-based, Separable ADMM). MESA is fully distributed to tolerate failures of individual robots, asynchronous to tolerate practical network conditions, and general purpose to handle any CSLAM problem formulation. We demonstrate that MESA exhibits superior convergence rates and accuracy compare to existing state-of-the art CSLAM back-end optimizers.
+
+Pre-Print: Coming Soon!
+
+---
+
 # Robust Incremental Smoothing and Mapping (riSAM)
 
 <p align="center">
@@ -16,7 +28,24 @@ Abstract: This paper presents a method for robust optimization for online increm
 
 **Accepted to ICRA 2023!**
 
+Code: [github](https://github.com/rpl-cmu/risam)
+
 Pre-Print: [arXiv](https://arxiv.org/abs/2209.14359)
+
+Publication: [IEEE Xplore](https://ieeexplore.ieee.org/document/10161438) 
+
+Please cite as:
+```
+@inproceedings{mcgann_risam_2023, 
+    title = {Robust Incremental Smoothing and Mapping ({riSAM})},
+    author = {D. McGann and J.G. Rogers III and M. Kaess},
+    fullauthor = {Daniel McGann and John G. Rogers III and Michael Kaess},
+    year = 2023,
+    booktitle = {Proc. IEEE Intl. Conf. on Robotics and Automation (ICRA)},
+    address = {London, {GB}}
+    pages = {4157-4163},
+}
+```
 
 ---
 

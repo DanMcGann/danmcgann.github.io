@@ -10,6 +10,9 @@ Welcome to Dan's corner. A part of my site dedicated to the stuff that I like.
 
 ## Music Rec's
 Some recent finds that I cannot get enough of...
+* October 2023
+    * [Masayoshi Takanaka](https://en.wikipedia.org/wiki/Masayoshi_Takanaka)
+    * [Yabadum](https://yabadum.bandcamp.com/music)
 * October 2022
     * [And the Kids](https://andthekidsmusic.bandcamp.com/)
     * [Remember Sports](https://www.remembersports.com/)
@@ -29,11 +32,27 @@ Some recent finds that I cannot get enough of...
 
 ## Recent Trips
 
-### Cozumel
+### Colorado (September 2023)
+Spent two weeks hiking! Bagged 14ers: Gray's, Torrey's, Elbert, Yale, and Blanca and explored the Maroon Bells Wilderness (pictured below). 
+![colorado_2023](images/dan/colorado_2023.jpg)
+
+### Mt. San Antonio (August 2023)
+Highest Peak in the San Gabriel Mountains!
+![mtsanantonio_2023](images/dan/mtsanantonio_2023.jpg)
+
+### Sierra Nevadas (July 2023)
+Skied Mammoth July 4th and toured July 5th (thank you 2022-23 snowpack!)
+![sierras_2023](images/dan/sierras_2023.jpg)
+
+### Arches (May 2023)
+Got to stop by Arches for a morning run!
+![arches_2023](images/dan/arches_2023.jpg)
+
+### Cozumel (Jan 2023)
 My first time diving in the tropics. Not sure if I can go back to the quarries of PA.
 ![cozumel_2023](images/dan/cozumel_2023.jpg)
 
-### The Enchantments
+### The Enchantments (Sept 2022)
 Mount Stewart was truly a test of resolve.
 ![enchantments_2022](images/dan/enchantments_2022.jpg)
 
@@ -56,7 +75,6 @@ I never thought I would enjoy backcountry skiing, but I'm worried that doing Tuc
 ### Park City (January 2021)
 Always practice with people who are better than you, its the best way to improve.
 ![park_city_2021](images/dan/park_city_2021.JPG)
-
 
 ### Longs Peak (August 2019)
 My first fourteener! Fantastic hike, but the altitude really took a toll.
