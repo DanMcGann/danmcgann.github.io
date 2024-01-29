@@ -14,10 +14,12 @@ In my undergrad career I worked with Professor Taskin Padir and a fantastic team
 For more info on my projects check out my [research](/research) page.
 
 ## Updates
+* Jan, 2024
+    * Our paper "Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM" was accepted to **ICRA 2024**
 * May, 2023
     * I started by internship with NASA JPL where I will work on the Exobiology Extant Life Surveyor (EELS) project!
 * Jan, 2023
-    * Our Paper "Robust Incremental Smoothing and Mapping (riSAM) was accepted to **ICRA 2023**
+    * Our paper "Robust Incremental Smoothing and Mapping (riSAM) was accepted to **ICRA 2023**
 * June, 2022
     * I started my internship with NASA Goddard where I will spend the summer researching methods for Lunar localization.
 * April, 2022
