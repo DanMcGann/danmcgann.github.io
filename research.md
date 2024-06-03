@@ -23,7 +23,7 @@ Abstract: This paper introduces a novel incremental distributed back-end algorit
 Please cite as:
 ```
 @inproceedings{mcgann_imesa_2024, 
-    title = {{iMESA}: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping},
+    title = { {iMESA}: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping},
     author = {D. McGann and M. Kaess},
     fullauthor = {Daniel McGann and Michael Kaess},
     year = 2024,
