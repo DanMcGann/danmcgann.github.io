@@ -9,11 +9,15 @@ order: 1
 My name is [Dan](/dan). I am a Ph.D. student in robotics at Carnegie Mellon University advised by Professor Michael Kaess. 
 My academic interests are in robot perception, localization, and mapping. I am particularly interested in these topics as they relate to space and ocean exploration!
 
-In my undergrad career I worked with Professor Taskin Padir and a fantastic team on NASA's Mars Ice Challenge, and started Northeastern's Chapter of Students for the Exploration and Development of Space ([NUSEDS](https://web.northeastern.edu/seds)).
+In my undergrad career I worked with Professor Taskin Padir and a fantastic team on NASA's Mars Ice Challenge, and started Northeastern's Chapter of Students for the Exploration and Development of Space (NUSEDS).
 
 For more info on my projects check out my [research](/research) page.
 
 ## Updates
+* May, 2024
+    * Our paper "iMESA: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping" was accepted to **RSS 2024**
+* April, 2024
+    * Our 2024 ICRA paper "Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM" was nominated for **IEEE ICRA Best Paper Award on Multi-Robot Systems**
 * Jan, 2024
     * Our paper "Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM" was accepted to **ICRA 2024**
 * May, 2023

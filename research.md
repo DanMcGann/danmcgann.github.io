@@ -6,6 +6,35 @@ order: 2
 
 ---
 
+# iMESA: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping
+
+<p align="center">
+<img src="images/research/imesa_high_level.png" alt="" width="100%" style="background-color:white;"/>
+</p>
+
+Abstract: This paper introduces a novel incremental distributed back-end algorithm for Collaborative Simultaneous Localization and Mapping (C-SLAM). For real-world deploy- ments, robotic teams require algorithms to compute a consistent state estimate accurately, within online runtime constraints, and with potentially limited communication. Existing centralized, decentralized, and distributed approaches to solving C-SLAM problems struggle to achieve all of these goals. To address this capability gap, we present Incremental Manifold Edge-based Separable ADMM (iMESA) a fully distributed C-SLAM back-end algorithm that can provide a multi-robot team with accurate state estimates in real-time with only sparse pair-wise communication between robots. Extensive evaluation on real and synthetic data demonstrates that iMESA is able to outperform comparable state-of-the-art C-SLAM back-ends.
+
+**Accepted to RSS 2024**
+
+|  Code  | Paper  | Official Publication |
+| :----: | :----: | :----: |
+| Coming Soon | [PDF](./RSS_2024_iMESA.pdf) | (Coming Soon) |
+
+Please cite as:
+```
+@inproceedings{mcgann_imesa_2024, 
+    title = {{iMESA}: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping},
+    author = {D. McGann and M. Kaess},
+    fullauthor = {Daniel McGann and Michael Kaess},
+    year = 2024,
+    booktitle = {Proc. Robotics: Science and Systems (RSS)},
+    address = {Delft, {ND}}
+    pages = {}, % Coming soon
+}
+```
+
+---
+
 # Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM
 
 <p align="center">
@@ -14,9 +43,27 @@ order: 2
 
 Abstract: In this paper we present a fully distributed, asynchronous, and general purpose optimization algorithm for Consensus Simultaneous Localization and Mapping (CSLAM). Multi-robot teams require that agents have timely and accurate solutions to their state as well as the states of the other robots in the team. To optimize this solution we develop a CSLAM back-end based on Consensus ADMM called MESA (Manifold, Edge-based, Separable ADMM). MESA is fully distributed to tolerate failures of individual robots, asynchronous to tolerate practical network conditions, and general purpose to handle any CSLAM problem formulation. We demonstrate that MESA exhibits superior convergence rates and accuracy compare to existing state-of-the art CSLAM back-end optimizers.
 
-**Accepted to ICRA 2024!**
+**Accepted to ICRA 2024!** 
 
-Pre-Print: [arXiv](https://arxiv.org/abs/2310.12320)
+**Finalist for Best Paper Award on Multi-Robot Systems**
+
+|  Code  | Paper | Pre-Print | Official Publication |
+| :----: | :----: | :----: | :----: |
+| [github](https://github.com/rpl-cmu/mesa) | [PDF](./ICRA_2024_MESA.pdf) | [arXiv](https://arxiv.org/abs/2310.12320) | (Coming Soon) |
+
+
+Please cite as:
+```
+@inproceedings{mcgann_mesa_2024, 
+    title = {Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus {ADMM}},
+    author = {D. McGann and K. Lassak and M. Kaess},
+    fullauthor = {Daniel McGann and Kyle Lassak and Michael Kaess},
+    year = 2024,
+    booktitle = {Proc. IEEE Intl. Conf. on Robotics and Automation (ICRA)},
+    address = {Yokohama, {JP}}
+    pages = {}, % Coming soon
+}
+```
 
 ---
 
@@ -30,11 +77,10 @@ Abstract: This paper presents a method for robust optimization for online increm
 
 **Accepted to ICRA 2023!**
 
-Code: [github](https://github.com/rpl-cmu/risam)
 
-Pre-Print: [arXiv](https://arxiv.org/abs/2209.14359)
-
-Publication: [IEEE Xplore](https://ieeexplore.ieee.org/document/10161438) 
+|  Code  | Paper | Pre-Print | Official Publication |
+| :----: | :----: | :----: | :----: |
+| [github](https://github.com/rpl-cmu/risam) | [PDF](./ICRA_2023_riSAM.pdf) | [arXiv](https://arxiv.org/abs/2209.14359) | [IEEE Xplore](https://ieeexplore.ieee.org/document/10161438) |
 
 Please cite as:
 ```
@@ -58,9 +104,12 @@ Please cite as:
 
 Abstract: Robotic systems such as unmanned ground vehicles (UGVs) often depend on GPS for navigation in outdoor environments. In GPS-denied environments, one approach to maintain a global state estimate is localizing based on preexisting georeferenced aerial or satellite imagery. However, this is inherently challenged by the significantly differing perspectives between the UGV and reference images. In this paper, we introduce a system for global localization of UGVs in remote, natural environments. We use multi-stereo visual inertial odometry (MSVIO) to provide local tracking. To overcome the challenge of differing viewpoints we use a probabilistic occupancy model to generate synthetic orthographic images from color images taken by the UGV. We then derive global information by scan matching local images to existing reference imagery and then use a pose graph to fuse the measurements to provide uninterrupted global positioning after loss of GPS signal. We show that our system generates visually accurate orthographic images of the environment, provides reliable global measurements, and maintains an accurate global state estimate in GPS-denied conditions.
 
-Accepted to ICRA 2022
+**Accepted to ICRA 2022**
 
-Conference Paper: [IEEE Xplore Link](https://ieeexplore.ieee.org/document/9812364)
+| Paper | Official Publication |
+| :----: | :----: |
+| [PDF](./ICRA_2022_Globally_Consistent_UGV_VIO.pdf) | [IEEE Xplore](https://ieeexplore.ieee.org/document/9812364) |
+
 
 ---
 
@@ -81,7 +130,7 @@ Program Website: [Mars Ice Challenge](http://specialedition.rascal.nianet.org/)
 
 Research Goal: Design a robotic system to collect water from subsurface ice deposits on Mars for the 2018 NASA Mars Ice Challenge.
 
-Accepted to 2019 IEEE Aerospace Conference
+**Accepted to 2019 IEEE Aerospace Conference**
 
 Conference Paper: [Link](https://ieeexplore.ieee.org/document/8741579)
 
