@@ -16,9 +16,9 @@ Abstract: This paper introduces a novel incremental distributed back-end algorit
 
 **Accepted to RSS 2024**
 
-|  Code  | Paper  | Official Publication |
-| :----: | :----: | :----: |
-| Coming Soon | [PDF](./RSS_2024_iMESA.pdf) | (Coming Soon) |
+|  Code  | Paper  | Pre-Print | Official Publication |
+| :----: | :----: | :----: | :----: |
+| [github](https://github.com/rpl-cmu/imesa) | [PDF](./papers/RSS_2024_iMESA.pdf) | [arXiv](https://arxiv.org/abs/2406.07371) | (Coming Soon) |
 
 Please cite as:
 ```
@@ -28,7 +28,7 @@ Please cite as:
     fullauthor = {Daniel McGann and Michael Kaess},
     year = 2024,
     booktitle = {Proc. Robotics: Science and Systems (RSS)},
-    address = {Delft, {ND}}
+    address = {Delft, {NL}}
     pages = {}, % Coming soon
 }
 ```
@@ -49,7 +49,7 @@ Abstract: In this paper we present a fully distributed, asynchronous, and genera
 
 |  Code  | Paper | Pre-Print | Official Publication |
 | :----: | :----: | :----: | :----: |
-| [github](https://github.com/rpl-cmu/mesa) | [PDF](./ICRA_2024_MESA.pdf) | [arXiv](https://arxiv.org/abs/2310.12320) | (Coming Soon) |
+| [github](https://github.com/rpl-cmu/mesa) | [PDF](./papers/ICRA_2024_MESA.pdf) | [arXiv](https://arxiv.org/abs/2310.12320) | (Coming Soon) |
 
 
 Please cite as:
@@ -80,7 +80,7 @@ Abstract: This paper presents a method for robust optimization for online increm
 
 |  Code  | Paper | Pre-Print | Official Publication |
 | :----: | :----: | :----: | :----: |
-| [github](https://github.com/rpl-cmu/risam) | [PDF](./ICRA_2023_riSAM.pdf) | [arXiv](https://arxiv.org/abs/2209.14359) | [IEEE Xplore](https://ieeexplore.ieee.org/document/10161438) |
+| [github](https://github.com/rpl-cmu/risam) | [PDF](./papers/ICRA_2023_riSAM.pdf) | [arXiv](https://arxiv.org/abs/2209.14359) | [IEEE Xplore](https://ieeexplore.ieee.org/document/10161438) |
 
 Please cite as:
 ```
@@ -108,7 +108,7 @@ Abstract: Robotic systems such as unmanned ground vehicles (UGVs) often depend o
 
 | Paper | Official Publication |
 | :----: | :----: |
-| [PDF](./ICRA_2022_Globally_Consistent_UGV_VIO.pdf) | [IEEE Xplore](https://ieeexplore.ieee.org/document/9812364) |
+| [PDF](./papers/ICRA_2022_Globally_Consistent_UGV_VIO.pdf) | [IEEE Xplore](https://ieeexplore.ieee.org/document/9812364) |
 
 
 ---
