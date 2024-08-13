@@ -49,7 +49,7 @@ Abstract: In this paper we present a fully distributed, asynchronous, and genera
 
 |  Code  | Paper | Pre-Print | Official Publication |
 | :----: | :----: | :----: | :----: |
-| [github](https://github.com/rpl-cmu/mesa) | [PDF](./papers/ICRA_2024_MESA.pdf) | [arXiv](https://arxiv.org/abs/2310.12320) | (Coming Soon) |
+| [github](https://github.com/rpl-cmu/mesa) | [PDF](./papers/ICRA_2024_MESA.pdf) | [arXiv](https://arxiv.org/abs/2310.12320) | [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10611193) |
 
 
 Please cite as:
@@ -61,7 +61,7 @@ Please cite as:
     year = 2024,
     booktitle = {Proc. IEEE Intl. Conf. on Robotics and Automation (ICRA)},
     address = {Yokohama, {JP}}
-    pages = {}, % Coming soon
+    pages = {4577-4583},
 }
 ```
 
