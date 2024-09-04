@@ -29,7 +29,6 @@ Please cite as:
     year = 2024,
     booktitle = {Proc. Robotics: Science and Systems (RSS)},
     address = {Delft, {NL}}
-    pages = {}, % Coming soon
 }
 ```
 
