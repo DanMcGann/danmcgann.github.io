@@ -18,7 +18,7 @@ Abstract: This paper introduces a novel incremental distributed back-end algorit
 
 |  Code  | Paper  | Pre-Print | Official Publication |
 | :----: | :----: | :----: | :----: |
-| [github](https://github.com/rpl-cmu/imesa) | [PDF](./papers/RSS_2024_iMESA.pdf) | [arXiv](https://arxiv.org/abs/2406.07371) | (Coming Soon) |
+| [github](https://github.com/rpl-cmu/imesa) | [PDF](./papers/RSS_2024_iMESA.pdf) | [arXiv](https://arxiv.org/abs/2406.07371) | [RSS](https://www.roboticsproceedings.org/rss20/p085.html) |
 
 Please cite as:
 ```
