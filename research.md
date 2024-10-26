@@ -4,6 +4,17 @@ title: Research
 order: 2
 ---
 
+
+---
+
+# Current Research - Robustness for Distributed Collaborative Simultaneous Localization and Mapping (C-SLAM)
+
+Research Question: How can be enable robust distributed optimization for multi-robot teams?
+
+Just like single robot scenarios, mutli-robot teams must content with outlier measurements that stem from perceptual aliasing. However, distributed optimization algorithms cannot necessarily be made robust by trivially integrating existing robust estimation techniques. This research looks to discover how to enable robustness in the context of distributed optimization for C-SLAM.
+
+**Results Coming Soon!**
+
 ---
 
 # iMESA: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping
@@ -59,7 +70,7 @@ Please cite as:
     fullauthor = {Daniel McGann and Kyle Lassak and Michael Kaess},
     year = 2024,
     booktitle = {Proc. IEEE Intl. Conf. on Robotics and Automation (ICRA)},
-    address = {Yokohama, {JP}}
+    address = {Yokohama, {JP}},
     pages = {4577-4583},
 }
 ```
@@ -85,11 +96,11 @@ Please cite as:
 ```
 @inproceedings{mcgann_risam_2023, 
     title = {Robust Incremental Smoothing and Mapping ({riSAM})},
-    author = {D. McGann and J.G. Rogers III and M. Kaess},
+    author = {D. McGann and J. G. {Rogers III} and M. Kaess},
     fullauthor = {Daniel McGann and John G. Rogers III and Michael Kaess},
     year = 2023,
     booktitle = {Proc. IEEE Intl. Conf. on Robotics and Automation (ICRA)},
-    address = {London, {GB}}
+    address = {London, {GB}},
     pages = {4157-4163},
 }
 ```
