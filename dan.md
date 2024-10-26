@@ -35,6 +35,14 @@ Some recent finds that I cannot get enough of...
 
 ## Recent Trips
 
+### Seneca Rocks, WV (Summer + Fall 2024)
+Got in a lot of awesome pitches during my first season on trad gear! 
+![new_river_season_2024](images/dan/seneca_season_2024.jpg)
+
+### New River George, WV (Summer + Fall 2024)
+Had an awesome sport season down at the new! Highlight climb was Chewy, and lowlight was bailing off of Daisy Cutter. Also had a surprising run-in with a black bear!
+![gunks_2024](images/dan/new_river_season_2024.jpg)
+
 ### The Gunks, NY (April 2024)
 First time at the gunks, and ticked my first trad lead!
 ![gunks_2024](images/dan/gunks_2024.jpg)
