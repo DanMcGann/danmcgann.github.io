@@ -96,7 +96,7 @@ I may have injured my ankle but the skiing was still great!
 ![park_city_2022](images/dan/park_city_2022.jpg)
 
 ### Dolly Sods, WV (June 2021)
-A really unique spot in WV. Beautiful place to hike in alpine meadows, jut be cautious given the complete lack of trail markers! 
+A really unique spot in WV. Beautiful place to hike in alpine meadows, just be cautious given the complete lack of trail markers! 
 ![dolly_sods_2021](images/dan/dolly_sods_2021.jpg)
 
 ### Tuckerman's Ravine, NH (May 2021)
@@ -105,7 +105,7 @@ I never thought I would enjoy backcountry skiing, but I'm worried that doing Tuc
 
 ### Park City, UT (January 2021)
 Always practice with people who are better than you, its the best way to improve.
-![park_city_2021](images/dan/park_city_2021.JPG)
+![park_city_2021](images/dan/park_city_2021.jpg)
 
 ### Longs Peak, CO (August 2019)
 My first fourteener! Fantastic hike, but the altitude really took a toll.
