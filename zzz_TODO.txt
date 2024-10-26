@@ -1,0 +1,18 @@
+- Update CV
+
+- Make trip pictures lazy load
+  - Maybe also downres all images to fixed size
+
+- Update Research Work
+  - Fix Citations
+  - Add Hints about current work
+  - Add Section for Goddard Work
+
+- Update General Info
+  - Update intro Paragraph
+    - Mention looking for faculty positions
+  - Update Footer Text
+  - Update headshot??
+  - Fix order of menu
+
+

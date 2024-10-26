@@ -124,6 +124,9 @@ GEM
     jekyll-github-metadata (2.12.1)
       jekyll (~> 3.4)
       octokit (~> 4.0, != 4.4.0)
+    jekyll-loading-lazy (0.1.1)
+      jekyll (>= 3.0, < 5.0)
+      nokogiri (>= 1.10, < 2.0)
     jekyll-mentions (1.5.1)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -252,6 +255,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 203)
   jekyll-feed (~> 0.12)
+  jekyll-loading-lazy
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
