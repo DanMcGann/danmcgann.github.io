@@ -8,7 +8,7 @@ order: 1
 
 My name is [Dan](/dan). I am a Ph.D. student in robotics at Carnegie Mellon University advised by Professor Michael Kaess.
 
-My research goal is to develop holistic multi-robot perception that enables multi-robot teams to understand their relation to an environment (State Estimation) as well as provide a deep contextual understanding of that environment (Mapping).  Specifically, I want to build perception algorithms that scale to the needs of future applications and are actually deployablein the real-world
+My research goal is to develop holistic multi-robot perception that enables multi-robot teams to understand their relation to an environment (State Estimation) as well as provide a deep contextual understanding of that environment (Mapping).  Specifically, I want to build perception algorithms that scale to the needs of future applications and are actually deployable in the real-world
 
 In my undergrad career I worked with Professor Taskin Padir and a fantastic team on NASA's Mars Ice Challenge, and started Northeastern's Chapter of Students for the Exploration and Development of Space (NUSEDS).
 
