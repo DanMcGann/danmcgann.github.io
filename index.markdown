@@ -4,7 +4,7 @@ title: Home
 order: 1
 ---
 
-_**I am activly on the job market! I am seeking robotics research roles in both academia and industry.**_
+_**I am actively on the job market! I am seeking robotics research roles in both academia and industry.**_
 
 _**Please reach out if you would like to chat!**_
 
