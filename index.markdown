@@ -4,15 +4,21 @@ title: Home
 order: 1
 ---
 
+_**I am activly on the job market! I am seeking robotics research roles in both academia and industry.**_
+
+_**Please reach out if you would like to chat!**_
+
 ![headshot](/images/index/headshot.jpg)
 
 My name is [Dan](/dan). I am a Ph.D. student in robotics at Carnegie Mellon University advised by Professor Michael Kaess.
 
-My research goal is to develop holistic multi-robot perception that enables multi-robot teams to understand their relation to an environment (State Estimation) as well as provide a deep contextual understanding of that environment (Mapping).  Specifically, I want to build perception algorithms that scale to the needs of future applications and are actually deployable in the real-world
+My research goal is to develop holistic robot perception that enables robots and multi-robot teams to understand their relation to an environment (State Estimation) as well as provide a deep contextual understanding of that environment (Mapping). Specifically, I want to build perception algorithms that scale to the needs of future applications and are actually deployable in the real-world.
 
 In my undergrad career I worked with Professor Taskin Padir and a fantastic team on NASA's Mars Ice Challenge, and started Northeastern's Chapter of Students for the Exploration and Development of Space (NUSEDS).
 
-For more info on my projects check out my [research](/research) page.
+For more info on my research projects check out my [research](/research) page.
+
+For examples of my various software projects checkout my [github](https://github.com/danmcgann) page.
 
 ## Updates
 * May, 2024
