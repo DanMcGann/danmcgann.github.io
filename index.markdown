@@ -23,9 +23,9 @@ For examples of my various software projects checkout my [github](https://github
         * "FORM: Fixed-Lag Odometry with Reparative Mapping utilizing Rotating LiDAR Sensors" - Led by Easton Potokar
         * "CU-Multi: A Dataset for Multi-Robot Collaborative Perception" - Led by Doncey Albin
 * Jan, 2026
-    * My first contribution at FieldAI "GrndCtrl: Grounding World Models via Self-Supervised Reward Alignment" (led by Haoyang He) was accepted to the 2026 World Modeling Workshop
+    * My first contribution at FieldAI "GrndCtrl: Grounding World Models via Self-Supervised Reward Alignment" (led by Haoyang He) was accepted to the **2026 World Modeling Workshop**
 * Oct, 2025
-    * I started as a Research Scientist at FieldAI!
+    * I started as a Research Scientist at **FieldAI**!
 * Sept, 2025
     * I successfully defended my Thesis! "Robust Incremental Distributed Collaborative Simultaneous Localization and Mapping"
     * Huge thanks to my advisor Michael Kaess, my committee, and everyone at CMU's Robotics Institute!

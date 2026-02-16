@@ -27,14 +27,14 @@ Recent years have seen a focus on research into distributed optimization algorit
 
 **Accepted to ICRA 2026**
 
-|  Dataaset  | Paper  | Pre-Print | Official Publication |
+|  Dataset  | Paper  | Pre-Print | Official Publication |
 | :----: | :----: | :----: | :----: |
 | [cosmobench.com](https://cosmobench.com) | [PDF](./papers/ICRA_2026_COSMO-Bench.pdf) | [arXiv](https://arxiv.org/abs/2508.16731) | Coming Soon! |
 
 Please cite as:
 ```
 @inproceedings{mcgann_cosmobench_2026, 
-    title = {{COSMO-Bench}: A Benchmark for Collaborative {SLAM} Optimization},
+    title = { {COSMO-Bench}: A Benchmark for Collaborative {SLAM} Optimization},
     author = {D. McGann and E.R. Potokar and M. Kaess},
     fullauthor = {Daniel McGann and Easton R. Potokar and Michael Kaess},
     year = 2026,
