@@ -35,6 +35,30 @@ Some recent finds that I cannot get enough of...
 
 ## Recent Trips
 
+### South Island, New Zealand (Jan, 2026)
+Starting off the new year with adventures in New Zealand!
+![new_zealand_2026](images/dan/new_zealand_2026.png)
+
+### Western Fjords, Norway (Oct, 2025)
+Celebrated defending my thesis with hiking in Norway!
+![norway_2025](images/dan/norway_2025.jpg)
+
+### Mt. Sneffels, CO (June, 2025)
+Backpacked the Mt. Sneffels Traverse! Was my parents first time backpacking!
+![sneffels_traverse_2025](images/dan/sneffels_traverse_2025.jpg)
+
+### Ireland (June, 2025)
+Exploring Ireland with friends!
+![ireland_2025](images/dan/ireland_2025.jpg)
+
+### Red Rocks, NV (Mar, 2025)
+First time at Red Rocks! Bailed off of Solar Slab!
+![red_rocks_2025](images/dan/red_rocks_2025.jpg)
+
+### Palisades, CA (Feb, 2025)
+First time at Palisades! Had some great skiing and one incredible powder day!
+![palisades_2025](images/dan/palisades_2025.jpg)
+
 ### Seneca Rocks, WV (Summer + Fall 2024)
 Got in a lot of awesome pitches during my first season on trad gear! 
 ![new_river_season_2024](images/dan/seneca_season_2024.jpg)

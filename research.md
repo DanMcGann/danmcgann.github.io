@@ -17,6 +17,35 @@ Just like single robot scenarios, mutli-robot teams must content with outlier me
 
 ---
 
+# COSMO-Bench: A Benchmark for Collaborative SLAM Optimization
+
+<p align="center">
+<img src="images/research/cosmobench_header.jpg" alt="" width="100%" style="background-color:white;"/>
+</p>
+
+Recent years have seen a focus on research into distributed optimization algorithms for multi-robot Collaborative Simultaneous Localization and Mapping (C-SLAM). Research in this domain, however, is made difficult by a lack of standard benchmark datasets. Such datasets have been used to great effect in the field of single-robot SLAM, and researchers focused on multi-robot problems would benefit greatly from dedicated benchmark datasets. To address this gap, we design and release the Collaborative Open-Source Multi-robot Optimization Benchmark (COSMO-Bench) -- a suite of 24 datasets derived from a baseline C-SLAM front-end and real-world LiDAR data.
+
+**Accepted to ICRA 2026**
+
+|  Dataaset  | Paper  | Pre-Print | Official Publication |
+| :----: | :----: | :----: | :----: |
+| [cosmobench.com](https://cosmobench.com) | [PDF](./papers/ICRA_2026_COSMO-Bench.pdf) | [arXiv](https://arxiv.org/abs/2508.16731) | Coming Soon! |
+
+Please cite as:
+```
+@inproceedings{mcgann_cosmobench_2026, 
+    title = {{COSMO-Bench}: A Benchmark for Collaborative {SLAM} Optimization},
+    author = {D. McGann and E.R. Potokar and M. Kaess},
+    fullauthor = {Daniel McGann and Easton R. Potokar and Michael Kaess},
+    year = 2026,
+    booktitle = {Proc. IEEE Intl. Conf. on Robotics and Automation (ICRA)},
+    address = {Vienna, {AT}},
+    pages = {}, % Coming soon
+}
+```
+
+---
+
 # iMESA: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping
 
 <p align="center">
