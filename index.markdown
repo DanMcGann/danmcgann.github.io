@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: About
 order: 1
 ---
 
@@ -11,6 +11,8 @@ My name is [Dan](/dan). I am roboticist interested in everything related to robo
 My research goal is to develop holistic robot perception that enables robots and multi-robot teams to understand their relation to an environment (State Estimation) as well as provide a deep contextual understanding of that environment (Mapping). Specifically, I want to build perception algorithms that scale to the needs of future applications and are actually deployable in the real-world.
 
 In my undergrad career I worked with Professor [Taskin Padir](https://coe.northeastern.edu/people/padir-taskin/) and a fantastic team on NASA's Mars Ice Challenge, and started Northeastern's Chapter of Students for the Exploration and Development of Space (NUSEDS).
+
+## Details
 
 For more info on my research projects check out my [research](/research) page.
 

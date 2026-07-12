@@ -1,0 +1,61 @@
+{%- comment -%}
+Renders the research page: a clickable summary index, then one card per paper.
+Content lives in _data/research.yml — see that file to add an entry.
+{%- endcomment -%}
+
+<ol class="research-index">
+    {%- for paper in site.data.research -%}
+    <li class="research-index__item">
+        <a class="research-index__link" href="#{{ paper.id }}">{{ paper.title | escape }}</a>
+        {%- if paper.year %} <span class="research-index__year">{{ paper.year }}</span>{% endif -%}
+    </li>
+    {%- endfor -%}
+</ol>
+
+<div class="research-cards">
+    {%- for paper in site.data.research -%}
+    <article class="research-card" id="{{ paper.id }}">
+        <h2 class="research-card__title">
+            <span class="research-card__title-text">{{ paper.title | escape }}</span>
+            {%- if paper.year %} <span class="research-card__year">{{ paper.year }}</span>{% endif -%}
+        </h2>
+
+        {%- if paper.venue -%}
+        <div class="research-card__venue"><span class="research-card__venue-label">Published In: </span>{{ paper.venue | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+        {%- endif -%}
+
+        {%- if paper.image -%}
+        <div class="research-card__media">
+            <img src="{{ paper.image }}" alt="{{ paper.title | escape }}"
+                 style="width: {{ paper.image_width | default: '100%' }};{% if paper.image_bg %} background-color: white;{% endif %}"
+                 loading="lazy" />
+        </div>
+        {%- endif -%}
+
+        {%- if paper.awards -%}
+            {%- for award in paper.awards -%}
+                <p class="research-card__award">🏆 {{ award | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {%- endfor -%}
+        {%- endif -%}
+
+        {%- if paper.abstract -%}
+        <div class="research-card__abstract">{{ paper.abstract | markdownify }}</div>
+        {%- endif -%}
+
+        {%- if paper.links -%}
+        <div class="research-card__links">
+            {%- for link in paper.links -%}
+            <a class="research-btn" href="{{ link.url }}">{{ link.label }}</a>
+            {%- endfor -%}
+        </div>
+        {%- endif -%}
+
+        {%- if paper.bibtex -%}
+        <details class="research-card__cite">
+            <summary>Cite</summary>
+            <pre><code>{{ paper.bibtex | strip }}</code></pre>
+        </details>
+        {%- endif -%}
+    </article>
+    {%- endfor -%}
+</div>
