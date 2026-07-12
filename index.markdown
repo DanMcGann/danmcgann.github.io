@@ -4,7 +4,7 @@ title: Home
 order: 1
 ---
 
-![headshot](/images/index/headshot.jpg)
+<img align="right" width="40%" src="/images/index/headshot.png">
 
 My name is [Dan](/dan). I am roboticist interested in everything related to robotic state estimation and mapping! I received my Ph.D. in robotics at Carnegie Mellon University with Professor [Michael Kaess](https://www.cs.cmu.edu/~kaess/) and am currently working as a research scientist at [FieldAI](https://www.fieldai.com/).
 

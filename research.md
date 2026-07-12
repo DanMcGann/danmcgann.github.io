@@ -7,13 +7,33 @@ order: 2
 
 ---
 
-# Current Research - Robustness for Distributed Collaborative Simultaneous Localization and Mapping (C-SLAM)
+# riMESA: Consensus ADMM for Real-World Collaborative SLAM
 
-Research Question: How can be enable robust distributed optimization for multi-robot teams?
+<p align="center">
+<img src="images/research/rimesa_header.png" alt="" width="100%" style="background-color:white;"/>
+</p>
 
-Just like single robot scenarios, mutli-robot teams must content with outlier measurements that stem from perceptual aliasing. However, distributed optimization algorithms cannot necessarily be made robust by trivially integrating existing robust estimation techniques. This research looks to discover how to enable robustness in the context of distributed optimization for C-SLAM.
+Collaborative Simultaneous Localization and Mapping (C-SLAM) is a fundamental capability for multi-robot teams as it enables downstream tasks like planning and navigation. However, existing C-SLAM back-end algorithms that are required to solve this problem struggle to address the practical realities of real-world deployments (i.e. communication limitations, outlier measurements, and online operation). In this paper we propose Robust Incremental Manifold Edge-based Separable ADMM (riMESA) -- a robust, incremental, and distributed C-SLAM back-end that is resilient to outliers, reliable in the face of limited communication, and can compute accurate state estimates for a multi-robot team in real-time. Through the development of riMESA, we, more broadly, make an argument for the use of Consensus Alternating Direction Method of Multipliers (C-ADMM) as a theoretical foundation for distributed optimization tasks in robotics like C-SLAM due to its flexibility, accuracy, and fast convergence. We conclude this work with an in-depth evaluation of riMESA on a variety of C-SLAM problem scenarios and communication network conditions using both synthetic and real-world C-SLAM data. These experiments demonstrate that riMESA is able to generalize across conditions, produce accurate state estimates, operate in real-time, and outperform the accuracy of prior works by a factor >7x on real-world datasets.
 
-**Results Coming Soon!**
+**Accepted to T-RO 2026**
+
+|  Code  | Paper  | Pre-Print | Official Publication |
+| :----: | :----: | :----: | :----: |
+| [github](https://github.com/rpl-cmu/rimesa) | [PDF](./papers/TRO_2026_riMESA.pdf) | [arXiv](https://arxiv.org/abs/2603.01178) | [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11575119) |
+
+
+```
+@article{mcgann_rimesa_2026,
+    title={ {riMESA}: Consensus {ADMM} for Real-World Collaborative {SLAM} }, 
+    author={McGann, Daniel and Kaess, Michael},
+    journal={IEEE Trans. on Robotics (TRO)}, 
+    year={2026},
+    volume={},  % Coming Soon
+    number={},  % Coming Soon
+    pages={}    % Coming Soon
+}
+
+```
 
 ---
 
