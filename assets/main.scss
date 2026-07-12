@@ -1,0 +1,59 @@
+---
+# This overrides minima's own main.scss
+---
+
+@import "minima";
+
+/* ------------------------------------------------------------------ */
+/* Updates timeline (home page)                                        */
+/* Content: _data/updates.yml   Markup: _includes/updates.html         */
+/* ------------------------------------------------------------------ */
+
+.updates-timeline {
+  margin-top: $spacing-unit * 0.5;
+}
+
+.update-card {
+  background-color: #ffffff;
+  border: 1px solid $grey-color-light;
+  border-left: 4px solid $brand-color;
+  border-radius: 6px;
+  padding: ($spacing-unit * 0.5) ($spacing-unit * 0.75);
+  margin-bottom: $spacing-unit * 0.6;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.15s ease-in-out, transform 0.15s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+  }
+}
+
+.update-card__date {
+  font-weight: 700;
+  font-size: $base-font-size * 1.05;
+  color: $brand-color;
+  margin-bottom: 6px;
+  letter-spacing: 0.2px;
+}
+
+.update-card__body {
+  margin: 0;
+  padding-left: $spacing-unit;
+
+  li {
+    margin-bottom: 2px;
+  }
+}
+
+.update-card__subitem {
+  list-style: none;
+}
+
+.update-card__sublist {
+  margin: 2px 0 4px 0;
+  padding-left: $spacing-unit * 0.9;
+  list-style-type: circle;
+  color: $grey-color-dark;
+  font-size: $base-font-size * 0.95;
+}

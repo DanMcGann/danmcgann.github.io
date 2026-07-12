@@ -1,0 +1,61 @@
+# Home page "Updates" section.
+# To add an update, prepend a new entry (newest first).
+#   - date:  the box header (any string)
+#     items: list of bullet strings; Markdown (**bold**, [links](...)) is supported.
+#            An item may instead be `sub:` with its own list to nest a second level.
+- date: "Feb, 2026"
+  items:
+    - "We had three papers accepted to **ICRA 2026**!"
+    - sub:
+        - '"COSMO-Bench: A Benchmark for Collaborative SLAM Optimization" - Led by myself'
+        - '"FORM: Fixed-Lag Odometry with Reparative Mapping utilizing Rotating LiDAR Sensors" - Led by Easton Potokar'
+        - '"CU-Multi: A Dataset for Multi-Robot Collaborative Perception" - Led by Doncey Albin'
+
+- date: "Jan, 2026"
+  items:
+    - "My first contribution at FieldAI \"GrndCtrl: Grounding World Models via Self-Supervised Reward Alignment\" (led by Haoyang He) was accepted to the **2026 World Modeling Workshop**"
+
+- date: "Oct, 2025"
+  items:
+    - "I started as a Research Scientist at **FieldAI**!"
+
+- date: "Sept, 2025"
+  items:
+    - "I successfully defended my Thesis! \"Robust Incremental Distributed Collaborative Simultaneous Localization and Mapping\""
+    - "Huge thanks to my advisor Michael Kaess, my committee, and everyone at CMU's Robotics Institute!"
+
+- date: "Dec, 2024"
+  items:
+    - "Our paper led by Easton Potokar, \"Robust Preintegrated Wheel Odometry for Off-Road Autonomous Ground Vehicles\" was accepted to **RA-L**"
+
+- date: "Oct, 2024"
+  items:
+    - "Our paper led by Will Driessen, \"Monocular Horizon Navigation\" was accepted to the **4th Space Imaging Workshop**"
+
+- date: "May, 2024"
+  items:
+    - "My paper \"iMESA: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping\" was accepted to **RSS 2024**"
+
+- date: "April, 2024"
+  items:
+    - "My 2024 ICRA paper \"Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM\" was nominated for **IEEE ICRA Best Paper Award on Multi-Robot Systems**"
+
+- date: "Jan, 2024"
+  items:
+    - "My paper \"Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM\" was accepted to **ICRA 2024**"
+
+- date: "May, 2023"
+  items:
+    - "I started by internship with NASA JPL where I will work on the Exobiology Extant Life Surveyor (EELS) project!"
+
+- date: "Jan, 2023"
+  items:
+    - "My paper \"Robust Incremental Smoothing and Mapping (riSAM) was accepted to **ICRA 2023**"
+
+- date: "June, 2022"
+  items:
+    - "I started my internship with NASA Goddard where I will spend the summer researching methods for Lunar localization."
+
+- date: "April, 2022"
+  items:
+    - "I was accepted the National Science Foundation's Graduate Research Fellowship Program!"

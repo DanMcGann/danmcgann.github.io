@@ -1,0 +1,26 @@
+{%- comment -%}
+Renders the home page "Updates" as a vertical timeline of cards.
+Content lives in _data/updates.yml — see that file to add an entry.
+{%- endcomment -%}
+<div class="updates-timeline">
+    {%- for update in site.data.updates -%}
+    <div class="update-card">
+        <div class="update-card__date">{{ update.date }}</div>
+        <ul class="update-card__body">
+            {%- for item in update.items -%}
+            {%- if item.sub -%}
+            <li class="update-card__subitem">
+                <ul class="update-card__sublist">
+                    {%- for sub in item.sub -%}
+                    <li>{{ sub | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                    {%- endfor -%}
+                </ul>
+            </li>
+            {%- else -%}
+            <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+            {%- endif -%}
+            {%- endfor -%}
+        </ul>
+    </div>
+    {%- endfor -%}
+</div>
