@@ -10,6 +10,9 @@ Welcome to Dan's corner. A part of my site dedicated to the stuff that I like.
 
 ## Music Rec's
 Some recent finds that I cannot get enough of...
+* June 2026
+    * [Curdis Harding](https://curtisharding.com/)
+    * [Curió Curió](https://curiocurio.bandcamp.com/)
 * June 2024
     * [Boys to to Jupiter](https://boysgotojupiter.bandcamp.com/)
     * [Pollyanna](https://www.wearepollyanna.com/)
@@ -34,6 +37,11 @@ Some recent finds that I cannot get enough of...
 ---
 
 ## Recent Trips
+
+### Innsbruck, Austria (June, 2026)
+Got to explore for a few days before attending ICRA!
+![innsbruck_2026](images/dan/innsbruck_2026.jpg)
+
 
 ### South Island, New Zealand (Jan, 2026)
 Starting off the new year with adventures in New Zealand!
