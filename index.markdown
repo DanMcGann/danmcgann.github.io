@@ -6,9 +6,9 @@ order: 1
 
 <img align="right" width="40%" src="/images/index/headshot.png">
 
-My name is [Dan](/dan). I am roboticist interested in everything related to robotic state estimation and mapping! I received my Ph.D. in robotics at Carnegie Mellon University with Professor [Michael Kaess](https://www.cs.cmu.edu/~kaess/) and am currently working as a research scientist at [FieldAI](https://www.fieldai.com/).
+My name is [Dan](/dan). I am a robotics researcher who designs and deploys novel theory and algorithms for collaborative perception. The goal of my research is to develop fundamental theory that enables scalable multi-robot teams to operate autonomously in challenging, unstructured, real-world deployments.
 
-My research goal is to develop holistic robot perception that enables robots and multi-robot teams to understand their relation to an environment (State Estimation) as well as provide a deep contextual understanding of that environment (Mapping). Specifically, I want to build perception algorithms that scale to the needs of future applications and are actually deployable in the real-world.
+I received my Ph.D. in robotics at Carnegie Mellon University with Professor [Michael Kaess](https://www.cs.cmu.edu/~kaess/) and am currently a postdoctoral research fellow at the University of Michigan with [Alan Papalia](https://robex.engin.umich.edu/) and [Maani Ghaffari](https://curly.engin.umich.edu/).
 
 In my undergrad career I worked with Professor [Taskin Padir](https://coe.northeastern.edu/people/padir-taskin/) and a fantastic team on NASA's Mars Ice Challenge, and started Northeastern's Chapter of Students for the Exploration and Development of Space (NUSEDS).
 

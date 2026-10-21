@@ -3,6 +3,15 @@
 #   - date:  the box header (any string)
 #     items: list of bullet strings; Markdown (**bold**, [links](...)) is supported.
 #            An item may instead be `sub:` with its own list to nest a second level.
+- date: "Oct, 2026"
+  items:
+    - "I started as a postdoctoral research fellow at the University of Michigan!"
+- date: "Oct, 2026"
+  items:
+    - "We presented two papers at **IROS 2026**!"
+    - sub:
+        - '"GrndCtrl: Grounding World Models via Self-Supervised Reward Alignment" - Led by Haoyang He at FieldAI'
+        - '"DALEC: Efficient Distributed State Estimation for Swarm Robotics in Space and GPS-Denied Environments" - Led by Nicolas Morales at Astrobotic'
 - date: "Feb, 2026"
   items:
     - "We had three papers accepted to **ICRA 2026**!"
