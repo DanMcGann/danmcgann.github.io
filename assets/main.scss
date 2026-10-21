@@ -5,6 +5,14 @@
 @import "minima";
 
 /* ------------------------------------------------------------------ */
+/* Home page headshot                                                  */
+/* ------------------------------------------------------------------ */
+
+.headshot {
+  padding-left: $spacing-unit; // breathing room between the wrapped text and the photo
+}
+
+/* ------------------------------------------------------------------ */
 /* Updates timeline (home page)                                        */
 /* Content: _data/updates.yml   Markup: _includes/updates.html         */
 /* ------------------------------------------------------------------ */

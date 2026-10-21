@@ -4,7 +4,7 @@ title: About
 order: 1
 ---
 
-<img align="right" width="40%" src="/images/index/headshot.png">
+<img class="headshot" align="right" width="40%" src="/images/index/headshot.png">
 
 My name is [Dan](/dan). I am a robotics researcher who designs and deploys novel theory and algorithms for collaborative perception. The goal of my research is to develop fundamental theory that enables scalable multi-robot teams to operate autonomously in challenging, unstructured, real-world deployments.
 
