@@ -1,26 +1,31 @@
 {%- comment -%}
 Renders the home page "Updates" as a vertical timeline of cards.
 Content lives in _data/updates.yml — see that file to add an entry.
+
+Entries are grouped by their `year` field.
+Updates from the current year (the year the site was built) are shown expanded;
+every earlier year collapses under a clickable year header.
 {%- endcomment -%}
+{%- assign current_year = site.time | date: "%Y" -%}
+{%- assign years = site.data.updates | group_by: "year" -%}
 <div class="updates-timeline">
-    {%- for update in site.data.updates -%}
-    <div class="update-card">
-        <div class="update-card__date">{{ update.date }}</div>
-        <ul class="update-card__body">
-            {%- for item in update.items -%}
-            {%- if item.sub -%}
-            <li class="update-card__subitem">
-                <ul class="update-card__sublist">
-                    {%- for sub in item.sub -%}
-                    <li>{{ sub | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-                    {%- endfor -%}
-                </ul>
-            </li>
-            {%- else -%}
-            <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-            {%- endif -%}
+    {%- for year in years -%}
+    {%- if year.name == current_year -%}
+    {%- for update in year.items -%}
+    {% include update-card.html update=update %}
+    {%- endfor -%}
+    {%- else -%}
+    <details class="updates-year">
+        <summary class="updates-year__header">
+            {{ year.name }}
+            <span class="updates-year__count">{{ year.size }} update{% if year.size != 1 %}s{% endif %}</span>
+        </summary>
+        <div class="updates-year__body">
+            {%- for update in year.items -%}
+            {% include update-card.html update=update %}
             {%- endfor -%}
-        </ul>
-    </div>
+        </div>
+    </details>
+    {%- endif -%}
     {%- endfor -%}
 </div>

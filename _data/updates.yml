@@ -1,18 +1,33 @@
 # Home page "Updates" section.
 # To add an update, prepend a new entry (newest first).
-#   - date:  the box header (any string)
+#   - year:  four-digit year, e.g. 2026. Used for the card header and to group
+#            past years into collapsible sections on the home page.
+#     month: month label shown on the card, e.g. "Oct"
+#     image: (optional) path to an image shown to the left of the text,
+#     image_alt: (optional) alt text describing the image
 #     items: list of bullet strings; Markdown (**bold**, [links](...)) is supported.
 #            An item may instead be `sub:` with its own list to nest a second level.
-- date: "Oct, 2026"
+- year: 2026
+  month: "Oct"
+  image: images/updates/2026_umich.png
+  image_alt: "Univeristy of Michigan Logo"
   items:
     - "I started as a postdoctoral research fellow at the University of Michigan!"
-- date: "Oct, 2026"
+    - sub:
+        - I am excited to be working with Alan and Maani in the Department of Naval Architecture and Marine Engineering
+- year: 2026
+  month: "Oct"
+  image: images/updates/2026_iros.webp
+  image_alt: "IROS 2026 Logo"
   items:
     - "We presented two papers at **IROS 2026**!"
     - sub:
         - '"GrndCtrl: Grounding World Models via Self-Supervised Reward Alignment" - Led by Haoyang He at FieldAI'
         - '"DALEC: Efficient Distributed State Estimation for Swarm Robotics in Space and GPS-Denied Environments" - Led by Nicolas Morales at Astrobotic'
-- date: "Feb, 2026"
+- year: 2026
+  month: "Feb"
+  image: images/updates/2026_icra.png
+  image_alt: "ICRA 2026 Logo"
   items:
     - "We had three papers accepted to **ICRA 2026**!"
     - sub:
@@ -20,51 +35,65 @@
         - '"FORM: Fixed-Lag Odometry with Reparative Mapping utilizing Rotating LiDAR Sensors" - Led by Easton Potokar'
         - '"CU-Multi: A Dataset for Multi-Robot Collaborative Perception" - Led by Doncey Albin'
 
-- date: "Jan, 2026"
+- year: 2026
+  month: "Jan"
+  image: images/updates/2026_wmw.png
+  image_alt: "WMW 2026 Logo"
   items:
     - "My first contribution at FieldAI \"GrndCtrl: Grounding World Models via Self-Supervised Reward Alignment\" (led by Haoyang He) was accepted to the **2026 World Modeling Workshop**"
 
-- date: "Oct, 2025"
+- year: 2025
+  month: "Oct"
   items:
     - "I started as a Research Scientist at **FieldAI**!"
 
-- date: "Sept, 2025"
+- year: 2025
+  month: "Sept"
   items:
     - "I successfully defended my Thesis! \"Robust Incremental Distributed Collaborative Simultaneous Localization and Mapping\""
     - "Huge thanks to my advisor Michael Kaess, my committee, and everyone at CMU's Robotics Institute!"
 
-- date: "Dec, 2024"
+- year: 2024
+  month: "Dec"
   items:
     - "Our paper led by Easton Potokar, \"Robust Preintegrated Wheel Odometry for Off-Road Autonomous Ground Vehicles\" was accepted to **RA-L**"
 
-- date: "Oct, 2024"
+- year: 2024
+  month: "Oct"
   items:
     - "Our paper led by Will Driessen, \"Monocular Horizon Navigation\" was accepted to the **4th Space Imaging Workshop**"
 
-- date: "May, 2024"
+- year: 2024
+  month: "May"
   items:
     - "My paper \"iMESA: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping\" was accepted to **RSS 2024**"
 
-- date: "April, 2024"
+- year: 2024
+  month: "April"
   items:
     - "My 2024 ICRA paper \"Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM\" was nominated for **IEEE ICRA Best Paper Award on Multi-Robot Systems**"
 
-- date: "Jan, 2024"
+- year: 2024
+  month: "Jan"
   items:
     - "My paper \"Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM\" was accepted to **ICRA 2024**"
 
-- date: "May, 2023"
+- year: 2023
+  month: "May"
   items:
     - "I started by internship with NASA JPL where I will work on the Exobiology Extant Life Surveyor (EELS) project!"
 
-- date: "Jan, 2023"
+- year: 2023
+  month: "Jan"
   items:
     - "My paper \"Robust Incremental Smoothing and Mapping (riSAM) was accepted to **ICRA 2023**"
 
-- date: "June, 2022"
+- year: 2022
+  month: "June"
   items:
     - "I started my internship with NASA Goddard where I will spend the summer researching methods for Lunar localization."
 
-- date: "April, 2022"
+- year: 2022
+  month: "April"
   items:
     - "I was accepted the National Science Foundation's Graduate Research Fellowship Program!"

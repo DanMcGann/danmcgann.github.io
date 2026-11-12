@@ -54,9 +54,8 @@
         author={McGann, Daniel and Kaess, Michael},
         journal={IEEE Trans. on Robotics (TRO)},
         year={2026},
-        volume={},  % Coming Soon
-        number={},  % Coming Soon
-        pages={}    % Coming Soon
+        volume={42},
+        pages={3550-3569},
     }
 
 - id: cosmobench
@@ -80,6 +79,7 @@
     - { label: "Dataset", url: "https://cosmobench.com" }
     - { label: "PDF", url: "./papers/ICRA_2026_COSMO-Bench.pdf" }
     - { label: "arXiv", url: "https://arxiv.org/abs/2508.16731" }
+    - { label: "IEEE Xplore", url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11696499" }
   bibtex: |
     @inproceedings{mcgann_cosmobench_2026,
         title = { {COSMO-Bench}: A Benchmark for Collaborative {SLAM} Optimization},
@@ -88,7 +88,7 @@
         year = 2026,
         booktitle = {Proc. IEEE Intl. Conf. on Robotics and Automation (ICRA)},
         address = {Vienna, {AT}},
-        pages = {}, % Coming soon
+        pages={8184-8190}
     }
 
 - id: imesa

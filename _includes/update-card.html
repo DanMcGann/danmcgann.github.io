@@ -1,0 +1,28 @@
+{%- comment -%}
+A single update card. Expects `include.update` (an entry from _data/updates.yml).
+If the entry has an `image`, it is shown to the left of the text.
+{%- endcomment -%}
+{%- assign u = include.update -%}
+<div class="update-card{% if u.image %} update-card--with-image{% endif %}">
+    {%- if u.image -%}
+    <img class="update-card__image" src="{{ u.image | relative_url }}" alt="{{ u.image_alt | default: '' | escape }}">
+    {%- endif -%}
+    <div class="update-card__content">
+        <div class="update-card__date">{{ u.month }}, {{ u.year }}</div>
+        <ul class="update-card__body">
+            {%- for item in u.items -%}
+            {%- if item.sub -%}
+            <li class="update-card__subitem">
+                <ul class="update-card__sublist">
+                    {%- for sub in item.sub -%}
+                    <li>{{ sub | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                    {%- endfor -%}
+                </ul>
+            </li>
+            {%- else -%}
+            <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+            {%- endif -%}
+            {%- endfor -%}
+        </ul>
+    </div>
+</div>

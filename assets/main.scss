@@ -2,6 +2,10 @@
 # This overrides minima's own main.scss
 ---
 
+// Widen the main content column on desktop (minima default: 800px).
+// Must be set before the import, since minima declares it with !default.
+$content-width: 1000px;
+
 @import "minima";
 
 /* ------------------------------------------------------------------ */
@@ -37,6 +41,37 @@
   }
 }
 
+/* Optional image to the left of the card text */
+.update-card--with-image {
+  display: flex;
+  align-items: flex-start;
+  gap: $spacing-unit * 0.75;
+
+  @include media-query($on-palm) {
+    flex-direction: column; // stack the image above the text on phones
+  }
+}
+
+.update-card__image {
+  flex: 0 0 100px;
+  align-self: center; // vertically center the image when the text is taller
+  width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+
+  @include media-query($on-palm) {
+    flex-basis: auto;
+    width: 100%;
+    max-height: none; // show the full image on phones, no height crop
+  }
+}
+
+.update-card__content {
+  flex: 1;
+  min-width: 0; // let long text wrap instead of overflowing the flex row
+}
+
 .update-card__date {
   font-weight: 700;
   font-size: $base-font-size * 1.05;
@@ -52,6 +87,57 @@
   li {
     margin-bottom: 2px;
   }
+}
+
+/* Collapsible year groups for past years */
+.updates-year {
+  margin-bottom: $spacing-unit * 0.6;
+
+  &[open] > .updates-year__header::before {
+    transform: rotate(90deg);
+  }
+}
+
+.updates-year__header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none; // hide default marker (Firefox)
+  padding: ($spacing-unit * 0.35) ($spacing-unit * 0.75);
+  background-color: mix($brand-color, #ffffff, 8%);
+  border: 1px solid $grey-color-light;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: $base-font-size * 1.1;
+  color: $grey-color-dark;
+  user-select: none;
+  transition: background-color 0.15s ease-in-out;
+
+  &::-webkit-details-marker {
+    display: none; // hide default marker (Safari/Chrome)
+  }
+
+  &::before {
+    content: "\25B8"; // ▸
+    color: $brand-color;
+    transition: transform 0.15s ease-in-out;
+  }
+
+  &:hover {
+    background-color: mix($brand-color, #ffffff, 14%);
+  }
+}
+
+.updates-year__count {
+  font-weight: 400;
+  font-size: $base-font-size * 0.85;
+  color: $grey-color;
+}
+
+.updates-year__body {
+  margin-top: $spacing-unit * 0.6;
+  padding-left: $spacing-unit * 0.5;
 }
 
 .update-card__subitem {
